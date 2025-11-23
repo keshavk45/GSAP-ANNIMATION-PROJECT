@@ -37,7 +37,7 @@ var tl2 =gsap.timeline({scrollTrigger:{
     start:"0% 95%",
     end:"50% 50%",
     scrub:true,
-    markers:true,
+    // markers:true,
 }})
 
 tl2.from("#green-lemon",{
@@ -71,5 +71,6 @@ tl2.to("#fanta",{
     left: "38%",
     height: "370px"
 }, 'lemon')
+
 
 
